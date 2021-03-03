@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+    <div class="contair">
+      <h1 class="title">TITOLO</h1>
+    </div>
+    <script>
+    var kmStr = prompt('km')
+    var km = parseInt(etàStr)
+    var ageStr = prompt('età')
+    var age = parseInt(etàStr)
+    var cost = km * 0.21
+    var disc20 = cost * 0.2
+    var disc40 = cost * 0.4
+    var ageDisc20 = costo - disc20
+    var ageDisc40 = costo - disc40
+    var isAgeUnd = age < 18
+    var isAgeOver = age > 65
+    if (isAgeUnd) {
+      console.log(ageDisc20 + '20% discount applied')
+    } else if (isAgeOver) {
+      console.log(ageDisc40 + '40% discount applied')
+    } else {
+      console.log(cost + 'No discount applied')
+    }
+    </script>
+
+  </body>
+</html>
